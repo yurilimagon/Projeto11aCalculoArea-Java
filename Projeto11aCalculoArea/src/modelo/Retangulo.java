@@ -43,13 +43,13 @@ public class Retangulo {
     }
     
     //MÉTODOS DA CLASSE
-    float calcularArea(float b, float h){
+    public float calcularArea(float b, float h){
         float result;
         result = b * h;
         return result;
     }
     
-    float calcularPerimetro(float b, float h){
+    public float calcularPerimetro(float b, float h){
         float result;
         result = (2*b) + (2*h);
         return result;
